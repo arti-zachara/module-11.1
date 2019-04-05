@@ -19,6 +19,8 @@ var SamsungGalaxyS6 = new Phone("Samsung", 1990, "black");
 var OnePlusOne = new Phone("One", 999, "yellow");
 
 iPhone6S.printInfo();
+SamsungGalaxyS6.printInfo();
+OnePlusOne.printInfo();
 
 Phone.prototype.displayInfo = function() {
   var results = document.getElementById("results");
